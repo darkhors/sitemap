@@ -10,7 +10,7 @@ var tocConfig = {
     navText: "Ver Mais &#9660;",
     frontText: "Top &uArr;",
     noImage: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC",
-    loading: "<span>Carregando...</span>",
+    Carregando: "<span>Carregando...</span>",
     searching: "<span>Buscando...</span>",
     MonthNames: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"],
     noResult: "Sem Resultados"
