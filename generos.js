@@ -7,7 +7,7 @@ var tocConfig = {
     labelName: (window.location.hash && window.location.hash != "#0" && window.location.hash != "#search") ? encodeURIComponent(window.location.hash.substr(1)) : false,
     numChars: 140,
     thumbWidth: 70,
-    navText: "Load More &#9660;",
+    navText: "Ver Mais &#9660;",
     frontText: "Top &uArr;",
     noImage: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC",
     loading: "<span>Carregando...</span>",
