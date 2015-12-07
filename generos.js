@@ -1,6 +1,5 @@
 /**
- * Advanced Blogger TOC Script by Taufik Nurrohman
- * URL: https://plus.google.com/108949996304093815163/about
+ * Generos by dark
  */
 var tocConfig = {
     url: "",
@@ -11,10 +10,10 @@ var tocConfig = {
     navText: "Load More &#9660;",
     frontText: "Top &uArr;",
     noImage: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC",
-    loading: "<span>Loading...</span>",
-    searching: "<span>Searching...</span>",
+    loading: "<span>Carregando...</span>",
+    searching: "<span>Buscando...</span>",
     MonthNames: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"],
-    noResult: "No Result"
+    noResult: "Sem Resultados"
 };
 
 function getID(b) {
@@ -44,7 +43,7 @@ function showLabels(c) {
     var a = c.feed.category,
         d = "";
     d = "<select id='labelSorter' onchange='changeSort(this.value);'>";
-    d += "<option value='' selected>CATEGORY...</option>";
+    d += "<option value='' selected>Genêros...</option>";
     for (var b = 0; b < a.length; b++) {
         d += "<option value='" + decodeURIComponent(a[b].term) + "'>" + a[b].term.toUpperCase() + "</option>"
     }
